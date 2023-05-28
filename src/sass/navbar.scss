@@ -1,0 +1,102 @@
+.navbar {
+  background: #240053;
+  color: #ffffff;
+  font-family: "Cabinet Grotesk";
+
+  .container-fluid {
+    .navbar-toggler {
+      background: #ffffff;
+    }
+    .navbar-brand {
+      margin: 0 4rem;
+      span {
+        color: #ffffff;
+      }
+    }
+
+    .collapse {
+      .navbar-nav {
+        li {
+          margin-left: 4rem;
+          list-style: none;
+
+          .dropdown-menu {
+            background: #240053;
+            padding-left: 2px;
+
+            li {
+              margin: 0;
+              :hover {
+                color: #240053;
+              }
+            }
+          }
+        }
+      }
+      ul {
+        li {
+          list-style: none;
+
+          a {
+            font-family: "Cabinet Grotesk";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 17px;
+            color: #ffffff;
+          }
+
+          :hover {
+            opacity: 0.5;
+          }
+        }
+
+        .image-section {
+          text-align: center;
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          padding: 2px 0;
+          margin: 0 20px;
+          background: #d6abfc;
+          border: 1px solid #ffeafa;
+          box-shadow: 0px 4px 10px rgba(136, 7, 247, 0.07);
+        }
+      }
+
+      .signin {
+        display: flex;
+        .nav-item {
+          list-style: none;
+          .btn-signIn {
+            padding: 8.71px;
+          }
+
+          .btn-account {
+            background: #8807f7;
+            border-radius: 79.82px;
+            padding: 8.71px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .navbar {
+    .container-fluid {
+      .collapse {
+        .signin {
+          display: inline-block;
+          padding: 0;
+          margin: 0 3rem;
+
+          .image-section {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
