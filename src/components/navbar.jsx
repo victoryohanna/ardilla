@@ -87,7 +87,7 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link ">
+                <Link to="/learn" className="nav-link ">
                   Learn
                 </Link>
               </li>
@@ -99,7 +99,7 @@ const Navbar = () => {
                   type="submit"
                   className="nav-link btn btn-signIn me-2"
                 >
-                  SingIn
+                  Sing In
                 </Link>
               </li>
               <li className="nav-item">
