@@ -1,0 +1,122 @@
+.product-container {
+  background: #fffdf2;
+  border-radius: 32px 32px 0px 0px;
+  padding: 10px;
+
+  .products-items {
+    
+    padding: 40px;
+    div {
+      h3 {
+        color: #e8356d;
+        font-size: 40px;
+        font-weight: 700;
+      }
+
+      p {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 40px;
+        color: #3d0072;
+      }
+
+      span {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 30px;
+        color: #9ca3af;
+      }
+    }
+
+    .list-items {
+      margin: 20px 0;
+
+      input {
+        accent-color: #e6366e;
+        width: 21.75px;
+        height: 21.75px;
+        clip-path: circle(46% at 50%);
+        margin: 15px 15px 15px 0;
+      }
+
+      label {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #3d0072;
+      }
+    }
+
+    .img-layout {
+      width: 473px;
+      height: 472px;
+      background: #e8356d;
+      opacity: 0.8;
+      border-radius: 24px 24px 0px 0px;
+
+      .img {
+        position: absolute;
+        top: 150px;
+        right: 270px;
+        height: 430px;
+        width: 317px;
+        padding: 3px;
+        border-radius: 32px 32px 0px 0px;
+        background: #3d0072;
+        transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+
+        .inner-img {
+          height: 430px;
+          width: 312px;
+          border-radius: 32px 32px 0px 0px;
+          background: #ffffff;
+
+          .mobile-header{
+            position: absolute;
+            width: 95%;
+            top: 20px; 
+            right: 6px;
+            display: flex;
+            justify-content: space-between;
+            
+            button{
+              width: 100px;
+              height: 35px;
+              background: #3d0072;
+              border: none;
+              border-radius: 30px;
+              transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+            }
+          }
+
+          .mobile-title{
+            position: absolute;
+            top: 90px;
+            left: 20px;
+            h4{
+              color: #3d0072;
+              font-size: 30px;
+              font-weight: 700;
+            }
+          }
+
+          .battery{
+           
+            display: flex;
+            div{
+              margin: 0 3px;
+              font-size: 14px;
+            }
+          }
+
+          .time{
+            span{
+              font-weight: 800;
+              color: #000000;
+            }
+          }
+        }
+      }
+    }
+  }
+}

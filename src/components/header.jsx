@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 import "../sass/headerComponent.scss";
 const HeaderComponent = () => {
@@ -6,13 +5,15 @@ const HeaderComponent = () => {
     <div className="header-section">
       <div className="header-hero-text ">
         <h1>Your Access To More</h1>
-        <span>
+        <p>
           Ardilla helps you save and invest in achieving your financial goals,
           we have the most flexible and seamless way to grow your funds.
-        </span>
+        </p>
       </div>
       <div className="get-started">
-        <Link to="/" className="btn btn-started">Get Started</Link>
+        <Link to="/" className="btn btn-started">
+          Get Started
+        </Link>
       </div>
       <div className="droid-section">
         <div className="left-droid"></div>
