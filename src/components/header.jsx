@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "../sass/headerComponent.scss";
+import "../sass/header.scss";
 const HeaderComponent = () => {
   return (
     <div className="header-section">

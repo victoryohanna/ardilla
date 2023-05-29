@@ -37,7 +37,7 @@ const Products = () => {
                         type="checkbox"
                         value=""
                         id="CheckChecked"
-                        checked
+                        defaultChecked
                       />
                       <label
                         className="form-check-label"
@@ -52,7 +52,7 @@ const Products = () => {
             </div>
             <div className="col-md-6">
               <div className="img-layout">
-                <div className="img">
+                {/* <div className="img"> 
                   <div className="inner-img">
                     <div className="mobile-header">
                       <div className="time">
@@ -90,7 +90,7 @@ const Products = () => {
                       />
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
