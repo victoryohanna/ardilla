@@ -1,16 +1,19 @@
-
-import '../sass/home.scss'
+import "../sass/home.scss";
 import HeaderComponent from "../components/header";
 import Products from "../components/products";
+import Transparency from "../components/transparency";
 const Home = () => {
   return (
     <div className="home-main">
-      <div className="header">
+      <section className="header">
         <HeaderComponent />
-      </div>
-      <div className="products">
+      </section>
+      <section className="products">
         <Products />
-      </div>
+      </section>
+      <section className="transparency">
+        <Transparency />
+      </section>
     </div>
   );
 };

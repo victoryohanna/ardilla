@@ -1,0 +1,90 @@
+.transparency-container {
+ 
+  margin: 20px 0;
+  padding: 20px 0;
+
+  .trn-details {
+    padding: 20px;
+
+    .hero-text {
+      span {
+        font-size: 46px;
+        font-weight: 700;
+        color: #3d0072;
+        margin: 0;
+      }
+
+      p {
+        font-size: 46px;
+        font-weight: 700;
+        color: #e8356d;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .hero-subtext {
+      margin: 30px 0;
+      p {
+        color: #3d0072;
+      }
+    }
+
+    .button-section {
+      .btn-submit {
+        background: #8807f7;
+        border-radius: 79.82px;
+        padding: 5px 12px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .form-section {
+    border-radius: 10px;
+    background: #000000;
+    color: #ffffff;
+    height: 450px;
+
+    .form {
+      display: flex;
+      padding: 20px;
+
+      .input-section {
+        p {
+          font-size: 22px;
+          font-weight: 500;
+        }
+
+        input {
+          border-radius: 0;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+          background: #000000;
+          box-shadow: none;
+          color: #ffffff;
+        }
+
+        select {
+          background: #000000;
+          box-shadow: none;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .interest-section{
+    position: absolute;
+    right: 120px;
+    height: 350px;
+    width: 280px;
+    border-radius: 15px 15px 0 0;
+    background: #ffffff;
+    color: #3d0072;
+    margin: 20px ;
+    padding: 20px;
+
+  }
+}

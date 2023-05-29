@@ -1,15 +1,19 @@
-
-.home-main{
-.header{
+.home-main {
+  .header {
     // border: 1px solid red;
     position: absolute;
     width: 100%;
-   
-}
-.products{
+  }
+  .products {
     // border: 1px solid blue;
     position: absolute;
     width: 100%;
     top: 620px;
-}
+  }
+
+  .transparency{
+    position: absolute;
+    width: 100%;
+    top: 1350px;
+  }
 }
