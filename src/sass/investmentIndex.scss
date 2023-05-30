@@ -3,5 +3,53 @@
 .investment-main{
     // border: 1px solid black;
     background: #fffdf2;
+    font-family: 'Cabinet Grotesk';
+
+    .container{
+
+        .hero-text{
+            p{
+                color: #3D0072;
+                font-weight: 800;
+                font-size: 50px;
+                line-height: 100px;
+                margin: 0;
+                line-height: 128%;
+
+
+            }
+
+            span{
+                color: #0D9488;
+                font-weight: 800;
+                font-size: 50px;
+                line-height: 100px;
+                margin: 0;
+                line-height: 128%;
+            }
+        }
+
+        .sub-text{
+            margin: 20px 0;
+            p{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 50px;
+                color: #3D0072;
+                
+            }
+        }
+
+        .btn-section{
+            button{
+                
+                background: #ffffff;
+                color: #8807F7;
+                border-radius: 20px;
+                border: 0.5px solid #8807F7;
+                padding: 0 20px;
+            }
+        }
+    }
   
 }

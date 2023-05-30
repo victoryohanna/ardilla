@@ -5,14 +5,14 @@ const InvestmentIndex = () => {
     <div className="investment-main">
       <div className="container">
         <div className="row ">
-          <div className="col-md-6">
-            <div>
+          <div className="col-md-7">
+            <div className="hero-text">
               <p>
                 Unlimited <span>Investment</span>
               </p>
-              <p>Opportunities</p>
+              <span>Opportunities</span> 
             </div>
-            <div>
+            <div className="sub-text">
               <p>
                 Plan toward your future by investing in ardilla. Grow your money
                 confidently and securely with available investment Opportunities
@@ -22,7 +22,7 @@ const InvestmentIndex = () => {
             <button>Invest with ardilla coming soon</button>
           </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
             <img src={image15} alt="" />
           </div>
         </div>
