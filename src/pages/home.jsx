@@ -3,6 +3,7 @@ import HeaderComponent from "../components/header";
 import Products from "../components/products";
 import Transparency from "../components/transparency";
 import InvestmentIndex from "../components/invextmentIndex";
+import AccessMoney from "../components/accessMoney";
 const Home = () => {
   return (
     <div className="home-main">
@@ -15,8 +16,11 @@ const Home = () => {
       <section className="transparency">
         <Transparency />
       </section>
-      <section>
+      <section className="investment">
         <InvestmentIndex/>
+      </section>
+      <section className="access-money">
+        <AccessMoney/>
       </section>
     </div>
   );
