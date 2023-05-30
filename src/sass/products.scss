@@ -2,10 +2,20 @@
   background: #fffdf2;
   border-radius: 32px 32px 0px 0px;
   padding: 10px;
+  font-family: "Cabinet Grotesk";
+
+  .head-text {
+    margin-top: 30px;
+    h1 {
+      font-style: normal;
+      font-weight: 800;
+      font-size: 80px;
+      line-height: 110px;
+      color: #3d0072;
+    }
+  }
 
   .products-items {
-    
-    padding: 40px;
     div {
       h3 {
         color: #e8356d;
@@ -71,15 +81,15 @@
           border-radius: 32px 32px 0px 0px;
           background: #ffffff;
 
-          .mobile-header{
+          .mobile-header {
             position: absolute;
             width: 95%;
-            top: 20px; 
+            top: 20px;
             right: 6px;
             display: flex;
             justify-content: space-between;
-            
-            button{
+
+            button {
               width: 100px;
               height: 35px;
               background: #3d0072;
@@ -89,28 +99,27 @@
             }
           }
 
-          .mobile-title{
+          .mobile-title {
             position: absolute;
             top: 90px;
             left: 20px;
-            h4{
+            h4 {
               color: #3d0072;
               font-size: 30px;
               font-weight: 700;
             }
           }
 
-          .battery{
-           
+          .battery {
             display: flex;
-            div{
+            div {
               margin: 0 3px;
               font-size: 14px;
             }
           }
 
-          .time{
-            span{
+          .time {
+            span {
               font-weight: 800;
               color: #000000;
             }
