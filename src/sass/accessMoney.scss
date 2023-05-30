@@ -1,25 +1,130 @@
+.access-main {
+  background: #240053;
+  font-family: "Cabinet Grotesk";
+  .container {
+    .main-body {
+      width: 80%;
+      margin:40px auto;
+      color: #ffffff;
 
-.access-main{
-    background: #240053;
-    .container{
-        text-align: center;
+      h1 {
+        font-weight: 800;
+        font-size: 60px;
+        line-height: 100px;
+      }
 
-        .main-body{
-            width: 80%;
-            margin: auto;
-            color: #ffffff;
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+      }
 
-            .btn-section{
-                display: flex;
+      .btn-section {
+        display: flex;
 
-            }
-
-            .card-sect{
-                
-                p{
-                    color: #ffffff;
-                }
-            }
+        button {
+        //   border: 0.5 solid #ffffff;
+          border-radius: 20px;
+          color: #ffffff;
+          background: #240053;
+          padding: 5px 20px;
+          margin: 20px 0;
         }
+      }
+
+      .card-section {
+        margin: 20px auto;
+        background: #29014b;
+        box-shadow: 0px 10px 35px rgba(6, 46, 253, 0.25),
+          0px 15px 70px rgba(251, 64, 64, 0.25),
+          0px 30px 90px rgba(136, 7, 247, 0.5);
+        border-radius: 4px;
+
+        .items {
+          margin: 20px;
+          padding: 35px;
+         
+          p {
+            color: #ffffff;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+
+          }
+
+          .title-text{
+           
+            margin: 20px 0;
+            padding: 10px;
+          }
+
+          .icon1{
+            width: 40px;
+            height: 40px;
+            margin-bottom: 60px;
+            border-radius: 50%;
+            background: #EAB308;
+            text-align: center;
+            padding: 3px;
+            font-size: 18px; 
+            box-shadow: 0px 40px 50px 2px #EAB308;
+          }
+
+          .icon2{
+            width: 40px;
+            height: 40px;
+            margin-bottom: 60px;
+            border-radius: 50%;
+            background: #E8356D;
+            text-align: center;
+            padding: 3px;
+            font-size: 18px; 
+            box-shadow: 0px 40px 50px 2px #E8356D;
+          }
+
+          .icon3{
+            width: 40px;
+            height: 40px;
+            margin-bottom: 60px;
+            border-radius: 50%;
+            background: #8807F7;
+            text-align: center;
+            padding: 3px;
+            font-size: 18px; 
+            box-shadow: 0px 40px 50px 2px #8807F7;
+          }
+
+          .icon4{
+            width: 40px;
+            height: 40px;
+            margin-bottom: 60px;
+            border-radius: 50%;
+            background: #22C55E;
+            text-align: center;
+            padding: 3px;
+            font-size: 18px; 
+            box-shadow: 0px 40px 50px 2px #22C55E;
+          }
+
+          .link-text{
+            
+            margin: 20px 0;
+            padding: 10px 0;
+
+            a{
+                text-decoration: none;
+                color: #ffffff; 
+
+                
+            }
+
+            :hover{
+                color: rgb(43, 43, 243);
+            }
+          }
+
+        }
+      }
     }
+  }
 }
