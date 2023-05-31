@@ -7,6 +7,7 @@ import AccessMoney from "../components/accessMoney";
 import Testimonials from "../components/testimonials";
 import Partners from "../components/partners";
 import Transactions from "../components/transactions";
+import Footer from "../components/footer"
 const Home = () => {
   return (
     <div className="home-main">
@@ -33,6 +34,9 @@ const Home = () => {
       </section>
       <section className="transactions">
         <Transactions/>
+      </section>
+      <section className="footer">
+        <Footer/>
       </section>
     </div>
   );

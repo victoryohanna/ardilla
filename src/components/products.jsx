@@ -47,12 +47,12 @@ const Products = () => {
                       </label>
                     </div>
                   );
-                })} 
+                })}
               </div>
             </div>
-            <div className="col-md-6"> 
+            <div className="col-md-6">
               <div className="img-layout">
-                <div className="img"> 
+                <div className="img">
                   <div className="inner-img">
                     <div className="mobile-header">
                       <div className="time">
@@ -80,15 +80,20 @@ const Products = () => {
                       <span>Account Balance</span>
                       <h6>&#8358;5,000,000.00</h6>
                     </div>
+                    <div className="quick-links">
+                      <div>top up</div>
+                      <div>top up</div>
+                      <div>top up</div>
+                    </div>
 
-                    <div className="progress-bar">
+                    {/* <div className="progress-bar">
                       <progress
                         id="file"
                         value="40"
                         max="100"
                         className="progress"
                       />
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
