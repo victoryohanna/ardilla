@@ -4,7 +4,7 @@
   .container {
     .main-body {
       width: 80%;
-      margin:40px auto;
+      margin: 40px auto;
       color: #ffffff;
 
       h1 {
@@ -23,7 +23,7 @@
         display: flex;
 
         button {
-        //   border: 0.5 solid #ffffff;
+          border: 0.5 solid #ffffff;
           border-radius: 20px;
           color: #ffffff;
           background: #240053;
@@ -41,90 +41,113 @@
         border-radius: 4px;
 
         .items {
-          margin: 20px;
-          padding: 35px;
-         
+          margin: 0 20px;
+          padding: 15px 20px;
+
           p {
             color: #ffffff;
             font-weight: 400;
             font-size: 16px;
             line-height: 28px;
-
           }
 
-          .title-text{
-           
+          .title-text {
             margin: 20px 0;
             padding: 10px;
           }
 
-          .icon1{
+          .icon1 {
             width: 40px;
             height: 40px;
             margin-bottom: 60px;
             border-radius: 50%;
-            background: #EAB308;
+            background: #eab308;
             text-align: center;
             padding: 3px;
-            font-size: 18px; 
-            box-shadow: 0px 40px 50px 2px #EAB308;
+            font-size: 18px;
+            box-shadow: 0px 40px 50px 2px #eab308;
           }
 
-          .icon2{
+          .icon2 {
             width: 40px;
             height: 40px;
             margin-bottom: 60px;
             border-radius: 50%;
-            background: #E8356D;
+            background: #e8356d;
             text-align: center;
             padding: 3px;
-            font-size: 18px; 
-            box-shadow: 0px 40px 50px 2px #E8356D;
+            font-size: 18px;
+            box-shadow: 0px 40px 50px 2px #e8356d;
           }
 
-          .icon3{
+          .icon3 {
             width: 40px;
             height: 40px;
             margin-bottom: 60px;
             border-radius: 50%;
-            background: #8807F7;
+            background: #8807f7;
             text-align: center;
             padding: 3px;
-            font-size: 18px; 
-            box-shadow: 0px 40px 50px 2px #8807F7;
+            font-size: 18px;
+            box-shadow: 0px 40px 50px 2px #8807f7;
           }
 
-          .icon4{
+          .icon4 {
             width: 40px;
             height: 40px;
             margin-bottom: 60px;
             border-radius: 50%;
-            background: #22C55E;
+            background: #22c55e;
             text-align: center;
             padding: 3px;
-            font-size: 18px; 
-            box-shadow: 0px 40px 50px 2px #22C55E;
+            font-size: 18px;
+            box-shadow: 0px 40px 50px 2px #22c55e;
           }
 
-          .link-text{
-            
+          .link-text {
             margin: 20px 0;
             padding: 10px 0;
 
-            a{
-                text-decoration: none;
-                color: #ffffff; 
-
-                
+            a {
+              text-decoration: none;
+              color: #ffffff;
             }
 
-            :hover{
-                color: rgb(43, 43, 243);
+            :hover {
+              color: rgb(43, 43, 243);
             }
           }
-
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .access-main {
+    .container {
+      .main-body {
+        width: 100%;
+
+        text-align: center;
+
+        h1 {
+          font-weight: 800;
+          font-size: 50px;
+          line-height: 70px;
+          padding: 20px 0;
+        }
+
+        p {
+          border: 1px solid #240053;
+        }
+
+        .btn-section {
+          display: flex;
+          justify-content: center;
+        }
+      }
+
     }
   }
 }

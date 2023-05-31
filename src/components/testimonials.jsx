@@ -11,7 +11,7 @@ const Testimonials = () => {
           </h1>
           <p>Listen to testimonials from Ardilla users building wealth</p>
         </div>
-        <div className="image-section">
+       <div className="image-section">
           <div className="row">
             {testimonials.map(items=> {
               return (

@@ -68,3 +68,53 @@
     }
   }
 }
+
+@media screen and (max-width: 500px){
+  .header-section {
+    background: #240053;
+    padding: 35px;
+    .header-hero-text {
+      text-align: center;
+      padding: 10px 5px;
+      width: 100%;
+    
+  
+      h1 {
+        font-weight: 800;
+        font-size: 45px;
+        background: linear-gradient(
+          91.7deg,
+          #ffeb35 7.5%,
+          rgba(25, 253, 130, 0.99) 107.24%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+  
+      p {
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 32px;
+        text-align: center;
+      }
+    }
+  
+    .get-started {
+      text-align: center;
+  
+      .btn-started {
+        padding: 5px 28px;
+        font-weight: 500;
+        font-size: 15px;
+        background: #ffffff;
+        border-radius: 100px;
+      }
+    }
+  
+    .droid-section {
+      display: none;
+    }
+  }
+}

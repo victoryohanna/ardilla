@@ -34,4 +34,57 @@
     width: 100%;
     top: 238em;
   }
+
+  .partners{
+    position: absolute;
+    width: 100%;
+    top: 382em;
+    background: #ffffff;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .home-main {
+    .header {
+      // border: 1px solid red;
+      position: relative;
+      width: 100%;
+    }
+    .products {
+      // border: 1px solid blue;
+      position: relative;
+      width: 100%;
+      top: 0;
+    }
+  
+    .transparency{
+      position: relative;
+      width: 100%;
+      top: 0;
+    }
+  
+    .investment{
+      position: relative;
+      width: 100%;
+      top: 0;
+    }
+  
+    .access-money{
+      position: relative;
+      width: 100%;
+      top: 0;
+    }
+  
+    .testimonials{
+      position: relative;
+      width: 100%;
+      top: 0;
+    }
+  
+    .partners{
+      position: 0;
+      width: 100%;
+      top: 0;
+    }
+  }
 }

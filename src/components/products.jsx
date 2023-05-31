@@ -47,12 +47,12 @@ const Products = () => {
                       </label>
                     </div>
                   );
-                })}
+                })} 
               </div>
             </div>
             <div className="col-md-6"> 
               <div className="img-layout">
-                {/* <div className="img"> 
+                <div className="img"> 
                   <div className="inner-img">
                     <div className="mobile-header">
                       <div className="time">
@@ -90,7 +90,7 @@ const Products = () => {
                       />
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

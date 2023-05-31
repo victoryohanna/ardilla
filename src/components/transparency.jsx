@@ -84,7 +84,7 @@ const Transparency = () => {
                     <span className="amount">
                     &#8358;600 [2%]
                     </span>
-                  </div>
+                  </div> 
                   <div className="mb-3">
                     <label htmlFor="amount" className="label">
                       Total Savings

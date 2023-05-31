@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 import "../sass/header.scss";
 const HeaderComponent = () => {
   return (
@@ -13,7 +13,7 @@ const HeaderComponent = () => {
       <div className="get-started">
         <Link to="/" className="btn btn-started">
           Get Started
-        </Link>
+        </Link> 
       </div>
       <div className="droid-section">
         <div className="left-droid"></div>

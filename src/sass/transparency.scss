@@ -33,19 +33,17 @@
       .btn-submit {
         background: #8807f7;
         border-radius: 79.82px;
-        padding: 5px 12px;
+        padding: 5px 20px;
         color: #ffffff;
       }
     }
   }
 
   .form-section {
-    border-radius: 50px ;
+    border-radius: 50px;
     background: #10001f;
     color: #ffffff;
     padding: 50px 20px 0 20px;
-  
-    // height: 450px;
 
     .form {
       display: flex;
@@ -84,9 +82,6 @@
   }
 
   .interest-section {
-    // position: absolute;
-    // right: 120px;
-    // height: 350px;
     width: 60%;
     offset: 1;
     border-radius: 15px 15px 0 0;
@@ -116,13 +111,76 @@
       );
     }
 
-    .btn-section{
+    .btn-section {
       margin: 10px 0;
-      button{
+      button {
         border-radius: 40px;
-        background: #8807F7;
+        background: #8807f7;
         color: #ffffff;
         font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .transparency-container {
+    margin: 0;
+    padding: 0;
+
+    .container {
+      .row {
+        .col-md-5 {
+          .trn-details {
+            text-align: center;
+            padding: 10px;
+            margin: 0;
+            width: 100%;
+
+            .hero-text {
+              span {
+                font-size: 46px;
+                font-weight: 700;
+                color: #3d0072;
+                margin: 0;
+              }
+
+              p {
+                font-size: 46px;
+                font-weight: 700;
+                color: #e8356d;
+                margin: 0;
+                padding: 0;
+              }
+            }
+          }
+        }
+
+        .col-md-7 {
+          .form-section {
+            border-radius: 0;
+
+            .form {
+              
+              display: inline-block;
+              .interest-section {
+                width: 100%;
+                border-radius: 0;
+                margin: 0;
+
+                .btn-section {
+                  margin:  0 ;
+                  display: flex;
+                  justify-content: center;
+                  button {
+                    
+                    margin: 20px 0;
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

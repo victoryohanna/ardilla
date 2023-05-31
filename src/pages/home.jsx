@@ -5,6 +5,7 @@ import Transparency from "../components/transparency";
 import InvestmentIndex from "../components/invextmentIndex";
 import AccessMoney from "../components/accessMoney";
 import Testimonials from "../components/testimonials";
+import Partners from "../components/partners";
 const Home = () => {
   return (
     <div className="home-main">
@@ -25,6 +26,9 @@ const Home = () => {
       </section>
       <section className="testimonials">
         <Testimonials/>
+      </section>
+      <section className="partner">
+        <Partners/>
       </section>
     </div>
   );
