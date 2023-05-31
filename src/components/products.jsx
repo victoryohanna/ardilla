@@ -78,7 +78,7 @@ const Products = () => {
                     </div>
                     <div className="account-balance">
                       <span>Account Balance</span>
-                      <h6>N5,000,000.00</h6>
+                      <h6>&#8358;5,000,000.00</h6>
                     </div>
 
                     <div className="progress-bar">

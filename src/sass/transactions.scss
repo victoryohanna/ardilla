@@ -1,4 +1,109 @@
+.transactions-main {
+  background: rgb(27, 1, 50);
+  font-family: "Cabinet Grotesk";
+  color: #ffffff;
+  font-style: normal;
+  padding: 40px;
 
-// .transactions-main{
-//     background: #;
-// }
+  .container {
+    .header-text {
+      text-align: center;
+
+      h1 {
+        font-weight: 800;
+        font-size: 50px;
+        line-height: 100px;
+      }
+
+      p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+      }
+    }
+
+    .trans-details {
+      width: 80%;
+      margin: auto;
+      padding: 20px; 
+      border-radius: 50%;
+      // background: linear-gradient(
+      //   118.8deg,
+      //   rgba(136, 7, 247, 0.6) 11.09%,
+      //   rgba(247, 194, 7, 0.6) 
+      // );
+      background: radial-gradient(
+        ellipse at 50% 50%,
+        rgb(60, 13, 102) 0%,
+        rgba(27, 1, 50) 100%
+      );
+      .row {
+        display: flex;
+        justify-content: center;
+
+        .col-1 {
+          background: #d2ffde;
+          border-radius: 70px 70px 0px 70px;
+          padding: 150px 30px;
+          margin: 20px;
+          text-align: center;
+          color: #1b0132;
+
+          h3 {
+            font-weight: 800;
+            font-size: 40px;
+            // line-height: 100px;
+            color: #2a332c;
+          }
+
+          .bold1 {
+            background: #33593d;
+            border-radius: 2px;
+          }
+        }
+
+        .col-2 {
+          background: #c8c1fd;
+          border-radius: 70px 70px 70px 0px;
+          padding: 150px 30px;
+          margin: 20px;
+          text-align: center;
+          color: #1b0132;
+
+          h3 {
+            font-weight: 800;
+            font-size: 40px;
+            // line-height: 100px;
+            color: #2a332c;
+          }
+
+          .bold1 {
+            background: #35298a;
+            border-radius: 2px;
+          }
+        }
+
+        .col-3 {
+          background: #faf7c3;
+          border-radius: 70px 70px 70px 0px;
+          padding: 150px 30px;
+          margin: 20px;
+          text-align: center;
+          color: #1b0132;
+
+          h3 {
+            font-weight: 800;
+            font-size: 40px;
+            // line-height: 100px;
+            color: #2a332c;
+          }
+
+          .bold3 {
+            background: #9f9704;
+            border-radius: 2px;
+          }
+        }
+      }
+    }
+  }
+}
