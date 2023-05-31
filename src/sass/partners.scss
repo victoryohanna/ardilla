@@ -1,30 +1,50 @@
-
-.partners-main{
-    .container{
-
-        .parners-logo{
-            
-            display: flex;
-            justify-content: center;
-            img{
-                
-                width: 150px;
-                height: 150px;
-                margin: 0 10px;
-            }
-        }
-
-        .card-section{
-            margin: 25px 0;
-            .card{
-                width: 80%;
-                    margin: auto;
-                .card-body{
-                    background: #fffdf2;
-                    text-align: center;
-                    
-                }
-            }
-        }
+.partners-main {
+  font-family: "Cabinet Grotesk";
+  .container {
+    .parners-logo {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 150px;
+        height: 150px;
+        margin: 0 10px;
+      }
     }
+
+    .card-section {
+      margin: 25px 0;
+      .partner-card {
+        width: 80%;
+        margin: auto;
+        border: 1px solid #f3f4f6;
+        background: #f3f4f6;
+        text-align: center;
+        border-radius: 20px;
+
+        h1 {
+            
+          font-weight: 800;
+          font-size: 35px;
+          line-height: 43px;
+          color: #3d0072;
+          margin: 40px 0 10px 0;
+
+        }
+
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          text-align: center;
+          color: #3d0072;
+        }
+
+        img{
+            width: 750px;
+            height: 200px;
+            border-radius: 10px 10px 0 0;
+        }
+      }
+    }
+  }
 }

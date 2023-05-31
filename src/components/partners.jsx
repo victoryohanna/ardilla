@@ -1,5 +1,7 @@
 import "../sass/partners.scss";
 import { partners } from "./data";
+import image17 from '../assets/image17.png';
+
 const Partners = () => {
   return (
     <div className="partners-main">
@@ -10,15 +12,14 @@ const Partners = () => {
           })}
         </div>
         <div className="card-section">
-          <div className="card">
-            <div className="card-body">
-              <h1>Also Available on the Web</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
-                impedit. Ut esse quasi doloremque ullam ducimus aliquid cum
-                possimus earum.
-              </p>
-            </div>
+          <div className="partner-card">
+            <h1>Also Available on the Web</h1>
+            <p>
+              Increase your bread & butter on the app or on the web.The Ardilla
+              app services are also available on the web.
+            </p>
+
+            <img src={image17} alt="" />
           </div>
         </div>
       </div>

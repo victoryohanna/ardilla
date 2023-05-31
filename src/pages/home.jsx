@@ -6,6 +6,7 @@ import InvestmentIndex from "../components/invextmentIndex";
 import AccessMoney from "../components/accessMoney";
 import Testimonials from "../components/testimonials";
 import Partners from "../components/partners";
+import Transactions from "../components/transactions";
 const Home = () => {
   return (
     <div className="home-main">
@@ -29,6 +30,9 @@ const Home = () => {
       </section>
       <section className="partners">
         <Partners/>
+      </section>
+      <section className="transactions">
+        <Transactions/>
       </section>
     </div>
   );
