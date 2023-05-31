@@ -1,0 +1,30 @@
+
+.partners-main{
+    .container{
+
+        .parners-logo{
+            
+            display: flex;
+            justify-content: center;
+            img{
+                
+                width: 150px;
+                height: 150px;
+                margin: 0 10px;
+            }
+        }
+
+        .card-section{
+            margin: 25px 0;
+            .card{
+                width: 80%;
+                    margin: auto;
+                .card-body{
+                    background: #fffdf2;
+                    text-align: center;
+                    
+                }
+            }
+        }
+    }
+}
