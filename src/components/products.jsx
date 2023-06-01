@@ -81,19 +81,10 @@ const Products = () => {
                       <h6>&#8358;5,000,000.00</h6>
                     </div>
                     <div className="quick-links">
+                      {/* <div>top up</div>
                       <div>top up</div>
-                      <div>top up</div>
-                      <div>top up</div>
+                      <div>top up</div> */}
                     </div>
-
-                    {/* <div className="progress-bar">
-                      <progress
-                        id="file"
-                        value="40"
-                        max="100"
-                        className="progress"
-                      />
-                    </div> */}
                   </div>
                 </div>
               </div>
