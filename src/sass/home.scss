@@ -60,12 +60,10 @@
 @media screen and (max-width: 990px) {
   .home-main {
     .header {
-      // border: 1px solid red;
       position: relative;
       width: 100%;
     }
     .products {
-      // border: 1px solid blue;
       position: relative;
       width: 100%;
       top: 0;
@@ -96,7 +94,19 @@
     }
   
     .partners{
-      position: 0;
+      position: relative;
+      width: 100%;
+      top: 0;
+    }
+
+    .transactions{
+      position: relative;
+      width: 100%;
+      top: 0;
+    }
+
+    .footer{
+      position: relative;
       width: 100%;
       top: 0;
     }

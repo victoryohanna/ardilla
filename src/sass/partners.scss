@@ -22,13 +22,11 @@
         border-radius: 20px;
 
         h1 {
-            
           font-weight: 800;
           font-size: 35px;
           line-height: 43px;
           color: #3d0072;
           margin: 40px 0 10px 0;
-
         }
 
         p {
@@ -39,10 +37,57 @@
           color: #3d0072;
         }
 
-        img{
-            width: 750px;
+        img {
+          width: 750px;
+          height: 200px;
+          border-radius: 10px 10px 0 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners-main {
+    .container {
+      .parners-logo {
+        img {
+          max-width: 100%;
+          height: 150px;
+          margin: auto;
+        }
+      }
+
+      .card-section {
+        margin: 25px 0;
+        .partner-card {
+          width: 100%;
+          margin: auto;
+
+          border-radius: 20px;
+
+          h1 {
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 43px;
+            color: #3d0072;
+            margin: 40px 0 10px 0;
+          }
+
+          p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #3d0072;
+          }
+
+          img {
+            max-width: 100%;
             height: 200px;
+            margin: auto;
             border-radius: 10px 10px 0 0;
+          }
         }
       }
     }
