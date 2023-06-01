@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { BsTwitter, BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
 
-
 import "../sass/footer.scss";
 
 const Footer = () => {
@@ -85,38 +84,46 @@ const Footer = () => {
             <p>33B, Ogundana street, Allen, Ikeja.</p>
             <h4>Contact</h4>
             <ul>
-            <li>support@ardilla.africa</li>
-            <li>(234)801 000 1234</li>
+              <li>support@ardilla.africa</li>
+              <li>(234)801 000 1234</li>
             </ul>
           </div>
         </div>
         <hr />
       </div>
-      <div className="container copyright d-flex justify-content-between">
-        <span>&copy; Copyright 2023 All Rights Reserved</span>
-        <div className="social-media">
-          <ul>
-            <li>
-              <Link to="/">
-                <BsInstagram />
-              </Link>
-            </li>
-            <li>
-              <Link to="/">
-                <BsFacebook />
-              </Link>
-            </li>
-            <li>
-              <Link to="/">
-                <BsLinkedin />
-              </Link>
-            </li>
-            <li>
-              <Link to="/">
-                <BsTwitter />
-              </Link>
-            </li>
-          </ul>
+      <div className="container copyright ">
+        <div className="row">
+          <div className="col-md">
+            <div className="copyright-text">
+              <span>&copy; Copyright 2023 All Rights Reserved</span>
+            </div>
+          </div>
+          <div className="col-md">
+            <div className="social-media">
+              <ul>
+                <li>
+                  <Link to="/">
+                    <BsInstagram />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/">
+                    <BsFacebook />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/">
+                    <BsLinkedin />
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/">
+                    <BsTwitter />
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
