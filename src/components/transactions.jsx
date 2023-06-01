@@ -1,6 +1,6 @@
 
 import '../sass/transactions.scss'
-const Transactions = () => {
+const Transactions = () => { 
   return (
     <div className="transactions-main">
       <div className="container">

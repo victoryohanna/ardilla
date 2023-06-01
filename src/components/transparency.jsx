@@ -1,25 +1,23 @@
-
-import {useState} from 'react'
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../sass/transparency.scss";
 
 const Transparency = () => {
+  const [savingOption, setSavingOption] = useState("");
+  const [savingDuration, setSavingDuration] = useState("");
+  const [totalBalance, setTotalBalance] = useState("");
+  const [totalSavings, setTotalSavings] = useState("");
+  const [interest, setInterest] = useState("");
+  const [amount, setAmount] = useState(0);
 
-  const [savingOption, setSavingOption] = useState('');
-  const [savingDuration, setSavingDuration] = useState('')
-  const [totalBalance, setTotalBalance] = useState('')
-  const [totalSavings, setTotalSavings] = useState('')
-  const [interest, setInterest] = useState('')
-  const [amount, setAmount] = useState(0)
-
-  const handleSubmit =(e)=>{
-    e.preventDefault()
-    const savings ={savingOption, savingDuration, amount}
-    console.log(savings)
-  }
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const savings = { savingOption, savingDuration, amount };
+    console.log(savings);
+  };
 
   return (
-    <div className="transparency-container">  
+    <div className="transparency-container">
       <div className="container">
         <div className="row ">
           <div className="col-md-5">
@@ -52,14 +50,13 @@ const Transparency = () => {
                     <select
                       className="form-select form-select-sm"
                       aria-label=".form-select-sm example"
-                      name='savingOption'
-                      
-                      onChange={(e)=>setSavingOption(e.target.value)}
+                      name="savingOption"
+                      onChange={(e) => setSavingOption(e.target.value)}
                     >
                       <option>Select</option>
                       <option>Monthly</option>
-                      <option >Weekly</option> 
-                      <option >Daily</option>
+                      <option>Weekly</option>
+                      <option>Daily</option>
                     </select>
                   </div>
                   <div className="mb-3">
@@ -70,8 +67,8 @@ const Transparency = () => {
                       type="text"
                       className="form-control form-control-sm"
                       id="amount"
-                      name='amount'
-                      onChange={(e)=>setAmount(e.target.value)} 
+                      name="amount"
+                      onChange={(e) => setAmount(e.target.value)}
                       placeholder=""
                     />
                   </div>
@@ -84,9 +81,8 @@ const Transparency = () => {
                         type="text"
                         className="form-control form-control-sm"
                         id="savingDuration"
-                        name='savingDuration'
-                        
-                        onChange={(e)=>setSavingDuration(e.target.value)}
+                        name="savingDuration"
+                        onChange={(e) => setSavingDuration(e.target.value)}
                         placeholder=""
                       />
                     </div>
@@ -96,36 +92,37 @@ const Transparency = () => {
                   <div className="mb-3">
                     <label htmlFor="amount" className="label">
                       Total balance
-                    </label><br/>
+                    </label>
+                    <br />
                     <span className="amount">&#8358;6,200</span>
                   </div>
                   <p>
-                    Saving &#8358;2000 monthly for 3 months will result ina balance of
-                    &#8358;6600{" "}
+                    Saving &#8358;2000 monthly for 3 months will result ina
+                    balance of &#8358;6600{" "}
                   </p>
                   <div className="mb-3">
                     <label htmlFor="amount" className="label">
                       Interest
-                    </label> <br/>
-                    <span className="amount">
-                    &#8358;600 [2%]
-                    </span>
-                  </div> 
+                    </label>{" "}
+                    <br />
+                    <span className="amount">&#8358;600 [2%]</span>
+                  </div>
                   <div className="mb-3">
                     <label htmlFor="amount" className="label">
                       Total Savings
-                    </label><br/>
+                    </label>
+                    <br />
                     <span className="amount">&#8358;600</span>
                   </div>
-                  <div className="chart-section">
-                
-              </div>
-              <div className="btn-section">
-                <button type="submit" className="btn "> Start Saving Now</button>
-              </div>
+                  <div className="chart-section"></div>
+                  <div className="btn-section">
+                    <button type="submit" className="btn ">
+                      {" "}
+                      Start Saving Now
+                    </button>
+                  </div>
                 </div>
               </form>
-              
             </div>
           </div>
         </div>

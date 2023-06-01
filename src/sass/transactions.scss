@@ -25,12 +25,12 @@
     .trans-details {
       width: 80%;
       margin: auto;
-      padding: 20px; 
+      padding: 20px;
       border-radius: 50%;
       // background: linear-gradient(
       //   118.8deg,
       //   rgba(136, 7, 247, 0.6) 11.09%,
-      //   rgba(247, 194, 7, 0.6) 
+      //   rgba(247, 194, 7, 0.6)
       // );
       background: radial-gradient(
         ellipse at 50% 50%,
@@ -101,6 +101,64 @@
           .bold3 {
             background: #9f9704;
             border-radius: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .transactions-main {
+    .container {
+      .trans-details {
+        width: 100%;
+        border: 0;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .transactions-main {
+    .container {
+      .trans-details {
+        width: 100%;
+        border: 0;
+        border-radius: 10px;
+
+        .row {
+          display: inline-block;
+          width: 100%;
+
+          .col-1 {
+            border-radius: 5px;
+            padding: 30px;
+            margin: 20px;
+            width: 100%;
+            text-align: center;
+            color: #1b0132;
+          }
+
+          .col-2 {
+            background: #c8c1fd;
+            border-radius: 5px;
+            padding: 30px;
+            margin: 20px;
+            width: 100%;
+            text-align: center;
+            color: #1b0132;
+          }
+
+          .col-3 {
+            background: #faf7c3;
+            border-radius: 5px;
+            padding: 30px;
+            margin: 20px;
+            width: 100%;
+            text-align: center;
+            color: #1b0132;
           }
         }
       }
