@@ -3,6 +3,8 @@ import image5 from "../assets/image5.png";
 import image16 from "../assets/image16.png";
 import "../sass/navbar.scss"; 
 const Navbar = () => {
+
+
   return (
     <>
       <nav className="navbar navbar-expand-lg  ">
@@ -53,7 +55,7 @@ const Navbar = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link to="/" className="nav-link">
+                <Link to="/" className="nav-link active">
                   Business
                 </Link>
               </li>

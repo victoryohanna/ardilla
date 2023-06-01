@@ -32,7 +32,7 @@ export const partners = [
     },
 
     {
-        id:"3",
+        id:"2",
         name:"",
         logo: logo2
     },

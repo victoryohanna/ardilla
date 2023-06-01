@@ -44,16 +44,32 @@
             font-size: 14px;
             line-height: 17px;
             color: #ffffff;
+
+           
           }
 
           :hover {
             opacity: 0.5;
           }
 
-          :active{
-            background-color: #8807f7;
+          :visited{
+            background: #b36fee;
           }
+
+          :active{
+            background: #8807f7;
+            color: #8807f7;
+          }
+
+
+          .navbar-nav > .active > a {
+            color: red;
         }
+
+          
+        }
+
+       
 
         .image-section {
           text-align: center;
