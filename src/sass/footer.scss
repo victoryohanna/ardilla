@@ -1,69 +1,70 @@
 .footer-main {
-    // background: rgba(48, 48, 32);
-    background: #8807F7;
-    color: #ffffff;
+  background: #8807f7;
+  color: #ffffff;
+  padding-top: 40px;
+  font-family: 'Cabinet Grotesk';
+  line-height: 32px;
 
-    .logo-section {
-        display: flex;
-        justify-content: center;
-        padding: 20px 0;
+  .container{
+    .row{
+      .quick-links{
+        h4{
+          font-weight: 800;
+          font-size: 14px;
+          line-height: 32px;
+        }
 
-        img {
-            width: 250px;
-            height: 40px;
-          }
-          
-      }
-
-     ul {
-        display: inline-block;
-        line-height: 35px;
-        font-size: 14px;
-
-        li {
+        ul {
+          display: inline-block;
+          line-height: 35px;
+          font-size: 14px;
+      
+          li {
             list-style: none;
             color: #c4c1c1;
-
-           :hover {
-                color: rgb(73, 73, 236);
-              }
+      
+            :hover {
+              color: rgb(73, 73, 236);
+            }
           }
-
+      
           a {
             text-decoration: none;
             color: #c4c1c1;
             font-weight: 100;
           }
+        }
       }
-
-      .social-media {
-        margin-top: 50px;
-
-        ul {
-            display: flex;
-            justify-content: center;
-
-            li {
-                list-style: none;
-                margin: 10px 30px;
-                font-size: 25px;
-              }
-
-              a {
-                color: #cfcbcb;
-
-                :hover {
-                    color: blue;
-                  }
-              }
-          }
-
-      }
-
-      .copyright {
-        margin-top: 20px;
-        padding: 20px 0;
-        font-size: 12px;
-        background: rgba(16, 16, 0);
-      }
+    }
   }
+  .social-media {
+    ul {
+      display: flex;
+      justify-content: center;
+
+      li {
+        list-style: none;
+        margin: 0 30px;
+        font-size: 18px;
+        border: 1px solid #ffffff;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        
+      }
+
+      a {
+        color: #cfcbcb;
+
+        :hover {
+          color: blue;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+}

@@ -1,118 +1,123 @@
 import { Link } from "react-router-dom";
-import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
-// import { logo } from "./files/images";
+import { BsTwitter, BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+
 
 import "../sass/footer.scss";
 
 const Footer = () => {
   return (
     <div className="footer-main">
-      <div className="logo-section">
+      {/* <div className="logo-section">
         <img src="" className="footer-logo" alt="..." />
-      </div>
+      </div> */}
       <div className="container">
         <div className="row">
-          <div className="col-md-3 quick-links">
-            <h4>Our Services</h4>
-            <hr />
+          <div className="col-md-2 quick-links">
+            <h4>Products</h4>
             <ul>
               <li>
-                <Link to="/">Admission Processing</Link>
+                <Link to="/">Savings</Link>
               </li>
               <li>
-                <Link to="/">Personal Statements</Link>
+                <Link to="/">Dilla</Link>
               </li>
               <li>
-                <Link to="/">Score Reporting</Link>
+                <Link to="/">Financial Coach</Link>
               </li>
               <li>
-                <Link to="/">Proof of Fund</Link>
+                <Link to="/">Halal</Link>
               </li>
               <li>
-                <Link to="/">Passport Processing</Link>
+                <Link to="/">Budgetting</Link>
               </li>
               <li>
-                <Link to="/">Visa Processing</Link>
+                <Link to="/">Investment</Link>
               </li>
               <li>
-                <Link to='/'>Study Abroad Packages</Link>
+                <Link to="/">Insurance</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-2 quick-links">
+            <h4>Company</h4>
+            <ul>
+              <li>
+                <Link to="/">About Us</Link>
               </li>
               <li>
-                <Link to='/'>Consultancy</Link>
+                <Link to="/">Careers</Link>
+              </li>
+              <li>
+                <Link to="/">FAQs</Link>
+              </li>
+              <li>
+                <Link to="/">Press</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-2 quick-links">
+            <h4>Transparency</h4>
+            <ul>
+              <li>
+                <Link to="/">Terms & Conditions</Link>
+              </li>
+              <li>
+                <Link to="/">Information Security Policy</Link>
+              </li>
+              <li>
+                <Link to="/">Privacy Policy</Link>
+              </li>
+              <li>
+                <Link to="/">Interest Tool</Link>
+              </li>
+            </ul>
+          </div>
+          <div className="col-md-2 quick-links">
+            <h4>Developer</h4>
+            <ul>
+              <li>
+                <Link to="/">Connect API </Link>
               </li>
             </ul>
           </div>
           <div className="col-md-3 quick-links">
-            <h4>Contact Us</h4>
-            <hr />
+            <h4>Address</h4>
+            <p>33B, Ogundana street, Allen, Ikeja.</p>
+            <h4>Contact</h4>
             <ul>
-              <li>
-                Address:{" "}
-                <p>
-                  Development & Innovation Centre No 23, Ven Adefila Street, Off
-                  Lajorin Road, G.R.A Ilorin, Kwara State, Nigeria.
-                </p>
-              </li>
-              <li>Phone Number: +23408090901234</li> 
-              <li>Email Address: info@exams.com</li>
+            <li>support@ardilla.africa</li>
+            <li>(234)801 000 1234</li>
             </ul>
-          </div>
-          <div className="col-md-6 ">
-            <div className="foot-note">
-              <div className="d-flex justify-content-center">
-                <h4>Vision & Mission</h4>
-              </div>
-              <hr />
-              <div className="vission_section">
-                <h5>Vision Statement</h5>
-                <p>
-                  “To empower students and professionals globally with the
-                  necessary resources and guidance to succeed in their
-                  educational and professional pursuits, and to be the leading
-                  provider of end-to-end study abroad and immigration services.”
-                </p>
-              </div>
-              <div className="mission_section">
-                <h5>Mission Statement</h5>
-                <p>
-                  “Our mission is to facilitate and streamline the study abroad
-                  and immigration process for our clients, from exam
-                  registration to visa processing and beyond. We aim to provide
-                  high-quality services and resources that enable students to
-                  achieve their academic and career goals, and we strive to do
-                  so with integrity, professionalism, and a commitment to
-                  excellence. We are dedicated to making the study abroad
-                  experience accessible to all, regardless of background or
-                  circumstance, and to fostering a culture of diversity,
-                  inclusivity, and global citizenship.”
-                </p>
-              </div>
-            </div>
-
-            <div className="social-media">
-              <ul>
-                <li>
-                  <Link to="/">
-                    <BsTwitter />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/">
-                    <BsInstagram />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="/">
-                    <BsFacebook />
-                  </Link>
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
+        <hr />
       </div>
-      <div className="copyright d-flex justify-content-center">
+      <div className="container copyright d-flex justify-content-between">
         <span>&copy; Copyright 2023 All Rights Reserved</span>
+        <div className="social-media">
+          <ul>
+            <li>
+              <Link to="/">
+                <BsInstagram />
+              </Link>
+            </li>
+            <li>
+              <Link to="/">
+                <BsFacebook />
+              </Link>
+            </li>
+            <li>
+              <Link to="/">
+                <BsLinkedin />
+              </Link>
+            </li>
+            <li>
+              <Link to="/">
+                <BsTwitter />
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
