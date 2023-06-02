@@ -66,9 +66,6 @@
       border-radius: 24px 24px 0px 0px;
 
       .img {
-        // position: absolute;
-        // top: 150px;
-        // right: 270px;
         height: 400px;
         width: 317px;
         margin: auto;
@@ -90,7 +87,7 @@
 
             button {
               width: 100px;
-              height: 35px;
+              height: 30px;
               background: #3d0072;
               border: none;
               border-radius: 30px;
@@ -112,7 +109,7 @@
             }
           }
           .mobile-title {
-            margin-top: 25px;
+            margin-top: 20px;
 
             h4 {
               color: #3d0072;
@@ -124,6 +121,57 @@
           .account-balance {
             margin: 20px;
             background: #fffdf2;
+          }
+          .quick-links {
+            
+            display: flex; 
+            justify-content: center;
+            .icon1 {
+              border-radius: 10px ;
+              margin: 4px;
+              width: 80px;
+              height: 50px;
+              padding-top:10px;
+              font-size: 18px;
+              background: #fce8ee;
+              color: #E8356D;
+              transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+            }
+            .icon2 {
+              border-radius: 10px;
+              margin: 4px;
+              width: 80px;
+              height: 50px;
+              padding-top:10px;
+              font-size: 18px;
+              background: #FEFCE8;
+              color: #EAB308;
+              transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+            }
+            .icon3 {
+              border-radius: 10px ;
+              margin: 4px;
+              width: 80px;
+              height: 50px;
+              padding-top:10px;
+              font-size: 18px;
+              background: #F3E6FE;
+              color: #8807F7;
+              transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+            }
+          }
+          .search{
+            margin: 10px 0;
+            
+            span{
+              font-size: 18px;
+            }
+          }
+
+          .friends{
+            display: flex;
+            justify-content: space-around;
+            
           }
         }
       }
@@ -146,7 +194,6 @@
           color: #3d0072;
         }
       }
-
       .products-items {
         .row {
           .col-md-6 {

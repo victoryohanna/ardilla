@@ -16,7 +16,7 @@ const InvestmentIndex = () => {
               <p>
                 Plan toward your future by investing in ardilla. Grow your money
                 confidently and securely with available investment Opportunities
-              </p>
+              </p> 
             </div>
             <div className="btn-section">
             <button>Invest with ardilla coming soon</button>

@@ -1,7 +1,11 @@
 import "../sass/products.scss";
-import { FaBatteryFull } from "react-icons/fa";
+import { FaBatteryFull, FaLocationArrow } from "react-icons/fa";
 import { GiNetworkBars } from "react-icons/gi";
-import { FiWifi } from "react-icons/fi";
+import { FiWifi } from "react-icons/fi"; 
+import {BiTransferAlt} from "react-icons/bi"; 
+
+import {vector1, vector2, vector3, vector4} from "./images";
+
 const Products = () => {
   const checkedList = [
     "Create Unlimted savings plans",
@@ -80,11 +84,21 @@ const Products = () => {
                       <span>Account Balance</span>
                       <h6>&#8358;5,000,000.00</h6>
                     </div>
-                    <div className="quick-links">
-                      {/* <div>top up</div>
-                      <div>top up</div>
-                      <div>top up</div> */}
+                    <div className="quick-links"> 
+                      <div className="icon1"><FaLocationArrow/>top up</div> 
+                      <div className="icon2"><FaLocationArrow/>request</div>
+                      <div className="icon3"><BiTransferAlt/>transfer</div>
                     </div>
+                    <div className="search">
+                      <span>Search for friends</span>
+                    </div>
+                    <div className="friends">
+                      <img src={vector1} alt="" />
+                      <img src={vector2} alt="" />
+                      <img src={vector3} alt="" />
+                      <img src={vector4} alt="" />
+                    </div>
+                    <div></div>
                   </div>
                 </div>
               </div>
