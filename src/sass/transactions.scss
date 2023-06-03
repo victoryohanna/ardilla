@@ -1,9 +1,14 @@
 .transactions-main {
-  background: rgb(27, 1, 50);
+  
   font-family: "Cabinet Grotesk";
   color: #ffffff;
   font-style: normal;
   padding: 40px;
+  background: radial-gradient(
+    circle at 46% 60%,
+    rgba(99, 5, 180, 0.6) 0%,
+    rgba(27, 1, 50) 40%
+  );
 
   .container {
     .header-text {
@@ -27,16 +32,7 @@
       margin: auto;
       padding: 20px;
       border-radius: 50%;
-      // background: linear-gradient(
-      //   118.8deg,
-      //   rgba(136, 7, 247, 0.6) 11.09%,
-      //   rgba(247, 194, 7, 0.6)
-      // );
-      background: radial-gradient(
-        ellipse at 50% 50%,
-        rgb(60, 13, 102) 0%,
-        rgba(27, 1, 50) 100%
-      );
+      
       .row {
         display: flex;
         justify-content: center;

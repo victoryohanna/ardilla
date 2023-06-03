@@ -60,16 +60,187 @@
     .left-droid {
       background: #ffffff;
       transform: rotate(-14.91deg);
+      margin: 0 10px;
+      width: 312px;
+      .inner-img {
+        height: 400px;
+        width: 312px;
+        padding: 20px;
+        border-radius: 32px 32px 0px 0px;
+        background: #ffffff;
+
+        .mobile-header {
+          display: flex;
+          justify-content: space-between;
+
+          button {
+            width: 100px;
+            height: 30px;
+            background: #3d0072;
+            border: none;
+            border-radius: 30px;
+            transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+          }
+        }
+        .battery {
+          display: flex;
+          div {
+            margin: 0 3px;
+            font-size: 14px;
+          }
+        }
+
+        .time {
+          span {
+            font-weight: 800;
+            color: #000000;
+          }
+        }
+        .mobile-title {
+          margin-top: 20px;
+
+          h4 {
+            color: #3d0072;
+            font-size: 30px;
+            font-weight: 700;
+          }
+        }
+
+        .account-balance {
+          margin: 20px;
+          background: #fffdf2;
+        }
+        .quick-links {
+          display: flex;
+          justify-content: center;
+          .icon1 {
+            border-radius: 10px;
+            margin: 4px;
+            width: 80px;
+            height: 50px;
+            padding-top: 10px;
+            font-size: 18px;
+            background: #fce8ee;
+            color: #e8356d;
+            transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+          }
+          .icon2 {
+            border-radius: 10px;
+            margin: 4px;
+            width: 80px;
+            height: 50px;
+            padding-top: 10px;
+            font-size: 18px;
+            background: #fefce8;
+            color: #eab308;
+            transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+          }
+          .icon3 {
+            border-radius: 10px;
+            margin: 4px;
+            width: 80px;
+            height: 50px;
+            padding-top: 10px;
+            font-size: 18px;
+            background: #f3e6fe;
+            color: #8807f7;
+            transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+          }
+        }
+        .search {
+          margin: 10px 0;
+
+          span {
+            font-size: 18px;
+          }
+        }
+
+        .friends {
+          display: flex;
+          justify-content: space-around;
+        }
+      }
     }
 
     .right-droid {
       background: #8807f7;
-      transform: rotate(15deg);
+      transform: rotate(14deg);
+      margin: 0 20px;
+      width: 312px;
+      .inner-img {
+        height: 400px;
+        width: 312px;
+        padding: 10px;
+        border-radius: 32px 32px 0px 0px;
+        background: #8807f7;
+
+        .mobile-header {
+          padding: 5px;
+          display: flex;
+          justify-content: space-between;
+
+          button {
+            width: 100px;
+            height: 30px;
+            background: #3d0072;
+            border: none;
+            border-radius: 30px;
+            transform: matrix(1, 0.01, -0.01, 1, 0, 0);
+          }
+        }
+        .battery {
+          display: flex;
+          div {
+            margin: 0 3px;
+            font-size: 14px;
+            color: #ffffff;
+          }
+        }
+
+        .time {
+          span {
+            font-weight: 800;
+            color: #ffffff;
+          }
+        }
+        .account-balance {
+          margin: 20px;
+          background: #8807f7;
+          color: #ffffff;
+          
+          text-align: center;
+          
+          h6{
+            font-size: 28px;
+            font-weight: 500;
+          }
+        }
+        .friends {
+          margin: 40px 0;
+          display: flex;
+          justify-content: center;   
+          img {
+            width: 70px;
+            height: 70px;
+          }
+        }
+        .counts{
+          display: flex;
+          justify-content: space-between;
+          margin: 10px 0;
+          color: #ffffff;
+          padding: 0 10px;
+          span{
+            font-size: 28px;
+            font-weight: 500;
+          }
+        }
+      }
     }
   }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .header-section {
     background: #240053;
     padding: 35px;
@@ -77,8 +248,7 @@
       text-align: center;
       padding: 10px 5px;
       width: 100%;
-    
-  
+
       h1 {
         font-weight: 800;
         font-size: 45px;
@@ -91,7 +261,7 @@
         -webkit-text-fill-color: transparent;
         background-clip: text;
       }
-  
+
       p {
         color: #ffffff;
         font-weight: 500;
@@ -100,10 +270,10 @@
         text-align: center;
       }
     }
-  
+
     .get-started {
       text-align: center;
-  
+
       .btn-started {
         padding: 5px 28px;
         font-weight: 500;
@@ -112,7 +282,7 @@
         border-radius: 100px;
       }
     }
-  
+
     .droid-section {
       display: none;
     }
